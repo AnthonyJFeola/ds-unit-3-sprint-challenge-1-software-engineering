@@ -265,8 +265,10 @@ career here, you'll have to answer the following:
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
-
-Answer both of these questions (baseline ~5 sentences) here in text.
+  
+  ### An important part of code review is making sure that the code adheres to the specifc standards that are used amongst all of the stakeholders. Having a standard of uniformity (whether PIP8, a company-specifc standard, or other) in the work place can help reduce confusion when reviewing a peer's code. It will allow for ease of readability and can streamline work when collaborating. Other aspects of code review I look for (and hope for a peer to look at) is proper and specific naming of variables, proper documentation including doc strings and in-line comments when necessary, and version control and accountability. Proper feedback from coworkers and constructive criticism also contribute to code review and ultimately lends itself to cleaner code going forward.
+  
+  ### Containers offer a high degree of reproducibility between environments and operating systems. This is exceptionally useful for a DevOps team and for developers who work individually and provides compatability when pushing code to a user-facing production server. Containers also reduce the need to execute additional setup procedures such as manually installing underlying dependencies, logging into a server for manual configuration, and installing additional databases. Containers provide a medium for automating and administering servers to ease the issues raised by manual configuration and human error.
 
 ### Part 8 - Turn it in!
 
