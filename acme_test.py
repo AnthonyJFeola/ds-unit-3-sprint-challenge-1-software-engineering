@@ -21,6 +21,7 @@ class AcmeProductTests(unittest.TestCase):
         self.assertEqual(prod.stealability(), print('Kinda stealable.'))
         self.assertEqual(prod.explode(), print('...boom!'))
 
+
 class AcmeReportTests(unittest.TestCase):
     """Making sure Acme reports are the tops!"""
     def test_default_num_products(self):
